@@ -55,7 +55,7 @@ Then open `http://localhost:8501` in your browser.
 
 ```mermaid
 flowchart TD
-    A[User inputs YouTube URL] --> B[Clicks "Grab Transcript"]
+    A[User inputs YouTube URL] --> B[Clicks 'Grab Transcript']
     B --> C[Read API key from api.txt]
     C --> D[Fetch transcript via youtube-transcript-api]
     D --> E[Prepare prompt for OpenRouter]
