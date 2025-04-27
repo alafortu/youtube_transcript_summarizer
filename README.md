@@ -45,6 +45,9 @@ pip install -r requirements.txt
 - Create a file named `api.txt` in the project root
 - Paste your API key inside (single line, no spaces)
 
+### 5. Change model
+- edit line 85 with the proper model name from openrouter
+
 ## Running the App
 ```bash
 streamlit run app.py
